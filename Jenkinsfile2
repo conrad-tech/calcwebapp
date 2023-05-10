@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('mvn package') {
             steps {
-                sh 'mvn package sonar:sonar -Dsonar.token=sqp_9d0597d3a05b8e674271419dc0c466ba5d202982'
+                sh 'mvn package sonar:sonar -Dsonar.token=sqp_698e364bb391fd155d06e6ead5b4da41443d5120'
             }
         }
     }
